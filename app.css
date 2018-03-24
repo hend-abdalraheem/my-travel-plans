@@ -11,6 +11,22 @@
     <div class="container">
         <div class="destination-container">
             <div class="destination" id="florida">
+.destination:hover h2 {
+    h2 {
+    margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+}
+transform: rotate(0deg);
+}
+h2 {
+    margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+}
+
                 <h2>Florida</h2>
             </div>
 
